@@ -1,0 +1,21 @@
+[
+  {
+    "nome": "Selma",
+    "idade": 75,
+    "profissao": "Funcionária Pública",
+    "cidade": "Salvador"
+  },
+  {
+    "nome": "Guilherme Antonio Guedes",
+    "idade": 35,
+    "profissao": "Analista de Suporte",
+    "cidade": "Bauru"
+  },
+  {
+    "nome": "Rogério",
+    "idade": 19,
+    "profissao": "Dev",
+    "cidade": "Rio de Janeiro"
+  }
+]
+
