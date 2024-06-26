@@ -1,6 +1,7 @@
 package br.com.alura.screenmatch.principal;
 
 
+import br.com.alura.screenmatch.modelos.pessoa.LivrosR;
 import br.com.alura.screenmatch.modelos.pessoa.PessoaR;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -25,6 +26,7 @@ public class FindBook3 {
         try {
             // Ler o arquivo JSON
             FileReader reader = new FileReader(pessoaJsonPath);
+//            FileReader readerlivros = new FileReader(pessoaJsonPath);
 
 //            // Converter JSON para objeto PessoaR
 //            PessoaR minhaPessoaR = gson.fromJson(reader, PessoaR.class);
@@ -33,9 +35,10 @@ public class FindBook3 {
 
             // Definimos  abaixo que o record será um array
             Type pessoaListType = new TypeToken<List<PessoaR>>() {}.getType();
-
+//            Type livrosListType = new TypeToken<List<LivrosR>>() {}.getType();
             // Converter JSON para lista de objetos PessoaR(só desserializei)
             List<PessoaR> pessoas = gson.fromJson(reader, pessoaListType);
+//            List<LivrosR> livrosRS = gson.fromJson(readerlivros, livrosListType);
 
 
 
@@ -45,6 +48,7 @@ public class FindBook3 {
             // Imprimir as informações da pessoa
             System.out.println("Informações da pessoa:");
             System.out.println(pessoas);
+//            System.out.println(livrosRS);
         } catch (IOException e) {
             e.printStackTrace();
         }
