@@ -9,7 +9,11 @@
     "nome": "Guilherme Antonio Guedes",
     "idade": 35,
     "profissao": "Analista de Suporte",
-    "cidade": "Bauru"
+    "cidade": "Bauru",
+    "livrosJson": {
+      "titulo": "longas tranças de um careca",
+      "autor": "The Devs"
+    }
   },
   {
     "nome": "Rogério",

@@ -17,7 +17,7 @@ public class FindBook3 {
 
     public static void main(String[] args) {
         // Caminho para o arquivo JSON
-        String pessoaJsonPath = "src/br/com/alura/screenmatch/bancodedados/variaspessoas.json";
+        String pessoaJsonPath = "src/br/com/alura/screenmatch/bancodedados/variaspessoas2.json";
 
         // Criar um objeto Gson
         Gson gson = new Gson();

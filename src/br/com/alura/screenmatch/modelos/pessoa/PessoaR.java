@@ -1,6 +1,6 @@
 package br.com.alura.screenmatch.modelos.pessoa;
 
-    public record PessoaR(String nome, String idade, String profissao, String cidade) {
+    public record PessoaR(String nome, String idade, String profissao, String cidade, LivrosR livrosJson) {
        // aqui ele gravou a estrutura do Record, a pessoa terá está estrutura
     }
     /*Todo: esse record acima, resumiu todo esse conteudo abaixo:
