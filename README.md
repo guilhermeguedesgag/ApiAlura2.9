@@ -1,5 +1,5 @@
-(https://photos.google.com/photo/AF1QipOiw2KuOdupYQ6YhZkglsWZzi3VCmTRCWgHE30s)
-
+![Gui Foto](https://photos.google.com/photo/AF1QipOiw2KuOdupYQ6YhZkglsWZzi3VCmTRCWgHE30s)
+![Gui Foto](https://drive.google.com/file/d/1gg0J-fgb-RgbUYdNY-GSx6bby41x6c50/view?usp=sharing)
 
 # Java: consumindo uma API, gravando arquivos e lidando com erros
 
