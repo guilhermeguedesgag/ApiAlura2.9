@@ -47,7 +47,21 @@ public class FindBook3 {
 
             // Imprimir as informações da pessoa
             System.out.println("Informações da pessoa:");
-            System.out.println(pessoas);
+
+            //foi colocado uma iteração abaixo, pois o Json estava sendo
+            // consumido em sua totalidade,gerando o ', ' antes do nome
+            for(PessoaR pessoaR:pessoas){
+                System.out.println(pessoaR);
+                System.out.println();
+            }
+
+
+
+
+
+
+
+
 //            System.out.println(livrosRS);
         } catch (IOException e) {
             e.printStackTrace();

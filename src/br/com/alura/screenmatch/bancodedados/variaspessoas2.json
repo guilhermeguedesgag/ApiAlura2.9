@@ -5,6 +5,7 @@
     "profissao": "Funcionária Pública",
     "cidade": "Salvador"
   },
+
   {
     "nome": "Guilherme Antonio Guedes",
     "idade": 35,
@@ -15,6 +16,7 @@
       "autor": "The Devs"
     }
   },
+
   {
     "nome": "Rogério",
     "idade": 19,

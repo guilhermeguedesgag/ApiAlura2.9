@@ -11,9 +11,9 @@ package br.com.alura.screenmatch.modelos.pessoa;
                 "Cidade: " + cidade + "\n" +
 //                "Livros preferidos"+ livrosJson + "\n";
                 "Livros preferidos: " +
+
                 (livrosJson != null ? "\n Título: " + livrosJson.titulo() +
-                        "\n Autor: "+ livrosJson.autor() : "Não preenchido") + "\n"+
-                "\n\n\n\n";
+                        "\n Autor: "+ livrosJson.autor() : "Não preenchido") + "\n";
 
         }
 
