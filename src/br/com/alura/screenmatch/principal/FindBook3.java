@@ -56,12 +56,6 @@ public class FindBook3 {
             }
 
 
-
-
-
-
-
-
 //            System.out.println(livrosRS);
         } catch (IOException e) {
             e.printStackTrace();
