@@ -10,6 +10,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.List;
+import java.util.Scanner;
 
 
 //o objetivo deste código é imprimir apenas um objeto do json
@@ -26,27 +27,24 @@ public class FindBook3 {
         try {
             // Ler o arquivo JSON
             FileReader reader = new FileReader(pessoaJsonPath);
-//            FileReader readerlivros = new FileReader(pessoaJsonPath);
-
-//            // Converter JSON para objeto PessoaR
-//            PessoaR minhaPessoaR = gson.fromJson(reader, PessoaR.class);
-
-
 
             // Definimos  abaixo que o record será um array
             Type pessoaListType = new TypeToken<List<PessoaR>>() {}.getType();
-//            Type livrosListType = new TypeToken<List<LivrosR>>() {}.getType();
+
             // Converter JSON para lista de objetos PessoaR(só desserializei)
             List<PessoaR> pessoas = gson.fromJson(reader, pessoaListType);
-//            List<LivrosR> livrosRS = gson.fromJson(readerlivros, livrosListType);
-
 
 
             // Fechar o reader
             reader.close();
 
+
+
             // Imprimir as informações da pessoa
             System.out.println("Informações da pessoa:");
+
+
+
 
             //foi colocado uma iteração abaixo, pois o Json estava sendo
             // consumido em sua totalidade,gerando o ', ' antes do nome
@@ -56,7 +54,7 @@ public class FindBook3 {
             }
 
 
-//            System.out.println(livrosRS);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
